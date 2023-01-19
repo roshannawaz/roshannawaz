@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>Hello wolrd!</title>
+</head>
+<body style="background-color:Blue";>
+<h1 style="color:red;text-align:center";>Hello World!</h1>
+<p style="color:green">This is a paragraph</p>
+<img src="cat.jpg" alt="a cat photo" style="border-radius:10px;max-width:50%";>
+<ul style="font-family:tahoma">
+<li>Cats love to sleep</li>
+<li>cats come i n many colors</li>
+<li>cats are cool</li>
+</ul>
+</body>
+</html>
