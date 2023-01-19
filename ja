@@ -1,0 +1,46 @@
+add.js
+
+function add(a,b){
+    return a+b;
+
+}
+function message(){
+    console.log("h");
+
+}
+console.log(add(1,2));
+console.log(message());
+
+<html>
+<head>
+<title> paul </title>
+</head>
+<body>
+<script>
+let age=prompt('how old are you?',50);
+alert(`you are ${age} years old`);
+</script>
+</body>
+</html>
+
+prototype.ts
+function student(){
+this.name='john';
+this.gender='m,;
+}
+student.prototype.age=18;
+var s1=new student();
+console.log(s1.age);
+var s2=new student();
+console.log(s1.name);
+var s3=new student();
+console.log(s1.gender);
+
+
+
+arrow function
+const add=(a,b)=>{
+return a+b;
+}
+const add=(a,b)=>a+b;
+const message=()=>"Hello World";
