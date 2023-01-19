@@ -1,0 +1,23 @@
+Usestate
+import { useState }from "react";
+function App(){
+
+  const [data,setData] = useState("click on button");
+
+  const loginAcc = () => {
+    setData("login ok")
+  }
+  const createAcc = () =>{
+    setData("accout ok)")
+  }
+  return(
+  <div>
+    <button onClick={loginAcc}>sign In</button>
+    <button onClick={createAcc}>sign up</button>
+    <h1>{data}</h1>
+  </div>
+
+  );
+}
+
+export default App;
